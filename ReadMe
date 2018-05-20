@@ -1,0 +1,18 @@
+[OBS] - Os comandos a seguir, devem ser executado em modo de super usuário.
+	entre na pasta da ferramenta...
+
+* Para instalar a ferramenta no seu Umbutu/Debian, insira os parâmetros no seu terminal:
+	chmod 777 install.sh
+	./install.sh
+
+* Para desinstalar a ferramenta no seu Umbutu/Debian, insira os parâmetros no seu terminal:
+	chmod 777 install.sh
+	./uninstall.sh
+
+* Para executa a ferramenta com o modo verbose desativo:
+	Com wordlist Padrão: bruted http://example.com default
+	Com wordlist Person: bruted http://example.com wordlist.txt
+
+* Para executar a ferramenta com o modo verbose ativado:
+        Com wordlist Padrão: bruted_v http://example.com default
+        Com wordlist Person: bruted_v http://example.com wordlist.txt
