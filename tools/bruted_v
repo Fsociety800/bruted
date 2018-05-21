@@ -41,7 +41,7 @@ GENERATED WORDS: \033[1;33m{}\033[m
 			elif code == codes[1]:
 				print("+ [\033[1;33m403\033[m] {}".format(target))
 			elif code == codes[2]:
-				print("+ [\033[1;31m404\033[m] {}".format(target))
+				print("- [\033[1;31m404\033[m] {}".format(target))
 			elif code not in codes:
 				print("+ [\033[1;34m{}\033[m] {} Unknown".format(code,target))
 			else:
